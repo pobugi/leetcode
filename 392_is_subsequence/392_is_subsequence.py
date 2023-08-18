@@ -2,6 +2,7 @@ s = "abc"
 
 t = "uyhahbgdc"
 
+
 def solve(t, s):
     pass
 
