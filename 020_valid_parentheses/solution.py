@@ -1,5 +1,6 @@
 # https://leetcode.com/problems/valid-parentheses/description/
 
+
 def solve(brackets):
     stack = []
     for bracket in brackets:
