@@ -18,6 +18,16 @@ class Node:
             visited.add(curr)
             curr = curr.next
 
+    def has_cycle_effective(self):
+        slow, fast = self, self
+
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+            if slow == fast:
+                return True
+        return False
+
 
 mon = Node("monday")
 tue = Node("tuesday")
@@ -33,6 +43,7 @@ wed.next = thu
 thu.next = fri
 fri.next = sat
 sat.next = sun
-sun.next = mon
+# sun.next = mon
 
 print(mon.has_cycle())
+print(mon.has_cycle_effective())
