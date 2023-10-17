@@ -17,4 +17,4 @@ def eratosphen(n: int):
     return result
 
 
-print(eratosphen(2971))
+print(eratosphen(100))
