@@ -1,18 +1,14 @@
 def solve(n):
-    arr = [i for i in range(2, n + 1)]
-
-    i = 1
-
-    while i < len(arr):
-        print(arr[i:])
-        i += 1
-
-    # for i in range(len(arr)):
-    #     for j in range(i * 2, len(arr)):
-    #         if arr[j] % arr[i] == 0:
-    #             arr.pop(j)
-
-    return arr
+    result = []
+    for i in range(2, int(n**0.5)):
+        # if n == 1:
+        #     break
+        while n % i == 0 and n != 1:
+            result.append(i)
+            n //= i
+    if n:
+        result.append(n)
+    return result
 
 
-print(solve(30))
+print(solve(21))
