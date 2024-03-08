@@ -8,9 +8,9 @@ class Solution:
             hash[num] = curr_freq
 
         res = 0
-        for key in hash.keys():
-            if hash[key] == max_freq:
-                res += max_freq
+        for val in hash.values():
+            if val == max_freq:
+                res += val
         return res
 
 
