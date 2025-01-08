@@ -23,9 +23,9 @@ I use the following programming languages for solving LeetCode problems:
 
 | Difficulty | Solved Problems |
 |------------|-----------------|
-| Easy       | XX             |
-| Medium     | XX             |
-| Hard       | XX             |
+| Easy       | 221             |
+| Medium     | 105             |
+| Hard       | 4               |
 
 ## How to Use
 
