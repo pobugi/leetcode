@@ -4,7 +4,7 @@ This repository is a work in progress as I continue to solve problems, improve s
 
 ## About the Repository
 
-This repository serves as a personal archive of my LeetCode problem solutions, organized for easy navigation and reference. The goal is to share my approach and to serve as a learning resource for others working on similar problems.
+This repository serves as a personal archive of my LeetCode problem solutions, organized for easy navigation and reference.
 
 ## Folder Structure (TODO)
 
